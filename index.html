@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tommy Phang's portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="mailto:phangtommy7@gmail.com" id="navbar__logo">
+          <i class="fas fa-envelope"></i>
+        </a>  
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span> <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item" class="wrap-image">
+            <a href="#home" class="navbar__links" id="home-page"><i class="fas fa-home"></i></a>
+          </li>
+          <li class="navbar__item">
+            <a href="#about" class="navbar__links" id="about-page">About</a>
+          </li>
+          <!--li class="navbar__item">
+            <a href="#services" class="navbar__links" id="services-page">Projects</a>
+          </li-->
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero" id="home">
+      <div class="hero__container">
+
+        <!--img src="phantasci.png" alt="phantasci" height="150"-->
+        <h1 class="hero__heading">
+          <span>Hello, I am Tommy! </span>
+          <!-- <span class="auto-type"></span> -->
+        </h1>
+        <p class="hero__description">
+          <span class="auto-type"></span>
+        </p>
+       <div class="social__icons">
+            <a href="https://www.linkedin.com/in/phangtommy/" class="social__icon--link2"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.github.com/phangtommy/" class="social__icon--link2" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.instagram.com/phangtommy_/" class="social__icon--link2" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+          <a href="#about" class="arrow-container no-decoration">
+            <div class="chevron"></div>
+            <div class="chevron"></div>
+            <div class="chevron"></div>
+            <span class="arrow-text">See more</span>
+          </a>      
+     </div>   
+    </div>
+
+    <!-- About Section -->
+    <div class="main" id="about">
+      <div class="main__container">
+        <div class="main__img--container">
+            <img src="luff.gif" alt="phantasci" width="300">
+        </div>
+        <div class="main__content">
+          <h1>About me</h1>
+          <h2></h2>
+          <p>I am currently a sophomore pursuing a Computer Science degree. I love learning new things, and 
+            I hope to apply my knowledge to solve daily life problems.
+
+            Feel free to reach me out if you have any questions or just to have a chat. :)</p>
+          <!--button class="main__btn"><a href="#">Contact me</a></button-->
+        </div>
+        <!--a href="#services" class="arrow-container2 no-decoration">
+            <div class="chevron"></div>
+            <div class="chevron"></div>
+            <div class="chevron"></div>
+            <span class="arrow-text">See more</span>
+        </a-->    
+      </div>
+    </div>
+
+    <!-- Projects Section -->
+    <!--div class="services" id="services">
+      <h1>Projects</h1>
+      <div class="services__wrapper">
+        <div class="services__card">
+          <h2>TODO</h2>
+          <p>Coming soon</p>
+          <div class="services__btn"><button>Get Started</button></div>
+        </div>
+        <div class="services__card">
+          <h2>TODO</h2>
+          <p>Coming soon</p>
+          <div class="services__btn"><button>Get Started</button></div>
+        </div>
+        <div class="services__card">
+          <h2>TODO</h2>
+          <p>Coming soon</p>
+          <div class="services__btn"><button>Get Started</button></div>
+        </div>
+        <div class="services__card">
+          <h2>TODO</h2>
+          <p>Coming soon</p>
+          <div class="services__btn"><button>Get Started</button></div>
+        </div>
+      </div>
+    </div-->
+
+
+    <!-- Features Section 
+    <div class="main" id="sign-up">
+      <div class="main__container">
+        <div class="main__content">
+          <h1>Join Our Team</h1>
+          <h2>Sign Up Today</h2>
+          <p>See what makes us different</p>
+          <button class="main__btn"><a href="#">Sign Up</a></button>
+        </div>
+        <div class="main__img--container">
+          <div class="main__img--card" id="card-2">
+            <i class="fas fa-users"></i>
+          </div>
+        </div>
+      </div>
+    </div>  -->
+
+
+
+    <!-- Footer Section -->
+    <div class="footer__container">
+      <section class="social__media">
+        <div class="social__media--wrap">
+          <p class="website__rights">@phangtommy_</p>
+          <div class="social__icons">
+            <a href="mailto:phangtommy7@gmail.com" class="social__icon--link" target="_blank"
+            ><i class="fas fa-envelope"></i>
+            </a>
+            <a href="https://www.github.com/phangtommy/" class="social__icon--link"
+              ><i class="fab fa-github"></i>
+            <a href="https://www.linkedin.com/in/phangtommy/" class="social__icon--link"
+              ><i class="fab fa-linkedin"></i>
+            </a>
+            <a href="tommy_phang_resume.pdf" class="social__icon--link"
+              ><i class="fas fa-file"></i> 
+            </a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed(".auto-type",{
+            strings:["Thanks for visiting!", "This site is currently under maintenance..."],
+            typeSpeed: 40,
+            backSpeed: 55,
+            loop: false 
+        })
+        
+    </script>
+  </body>
+</html>
