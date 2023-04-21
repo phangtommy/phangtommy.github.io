@@ -225,25 +225,86 @@ main {
 
 /* Floating Back-To-Top Button*/
 #myBtn {
-	/* position: fixed; */
-	/* bottom: 10px; */
-	/* float: right;
-	right: 18.5%;
-	left: 77.25%;
-	max-width: 30px;
-	width: 100%;
-	font-size: 12px;
-	border-color: rgba(85, 85, 85, 0.2);
-	background-color: rgb(247, 247, 247);
-	padding: .5px;
-	border-radius: 4px; */
-
 	width: 100%;
 	font-size: 18px;
-	background-color: green;
+	background-color: rgb(196, 196, 19);
 }
 
 /*On Hover Color Change*/
 #myBtn:hover {
-	background-color: violet;
+	background-color: hsl(22, 100%, 30%);
+}
+
+.google-maps {
+	position: relative;
+	padding-bottom: 75%; 
+	height: 0;
+	overflow: hidden;
+	width: 100%;
+}
+
+.google-maps iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100% !important;
+	height: 100% !important;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	grid-gap: 20px;
+	padding: 20px;
+	margin: 0 auto;
+	max-width: 1200px;
+}
+.container img {
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+	cursor: pointer;
+}
+
+.container img:hover {
+	opacity: 0.88;
+}
+
+
+.container img.zoom {
+	max-width: none;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	z-index: 999;
+}
+
+#food {
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 150%;
+	align-self: auto;
+}
+
+#food h2 {
+	margin-bottom: -5px;
+}
+
+#wrapper .text {
+	position:relative;
+	bottom:30px;
+	left:0px;
+	visibility:hidden;
+	align-self:center;
+	margin-bottom: -55px;
+	color: black;
+}
+
+#wrapper:hover .text {
+	visibility:visible;
 }

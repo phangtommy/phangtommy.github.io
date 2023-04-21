@@ -27,3 +27,10 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
+function zoomImage(img) {
+  if (img.classList.contains("zoom")) {
+    img.classList.remove("zoom");
+  } else {
+    img.classList.add("zoom");
+  }
+}
