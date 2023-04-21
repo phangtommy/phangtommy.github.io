@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Kosuke Ramen - Home</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+	<header>
+		<h1><a href="https://phangtommy.github.io/snap/snap.html">Kosuke Restaurant</a></h1>
+		<nav>
+			<ul>
+				<li><a href="#menu">Menu</a></li>
+				<li><a href="#hours">Hours</a></li>
+				<li><a href="#contact">Contact</a></li>
+				<li><a href="#reviews">Reviews</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<main>
+		<section id="hero">
+			<h2>About Us</h2>
+			<p>We are a family-owned restaurant that has been serving our community for over 20 years. Our goal is to provide high-quality food and service to our customers.</p>
+			<p>We offer delicious food in a cozy atmosphere. Come and enjoy our specialties today!</p>
+			<!-- <a href="#" class="btn">View Menu</a> -->
+		</section>
+
+
+		<section id="menu">
+			<h2>Our Menu</h2>
+			<div class="slideshow-container">
+
+				<!-- Full-width images with number and  -->
+				<div class="mySlides fade">
+					<img src="1.jpg" style="width:100%">
+					<div class="text">Tonkotsu Ramen</div>
+				</div>
+				<div class="mySlides fade">
+					<img src="2.jpg" style="width:100%">
+					<div class="text">Spicy Ramen</div>
+				</div>
+				<div class="mySlides fade">
+					<img src="3.jpg" style="width:100%">
+					<div class="text">Kuro Ramen</div>
+				</div>
+				<div class="mySlides fade">
+					<img src="4.jpg" style="width:100%">
+					<div class="text">Popcorn Chicken Ramen</div>
+				</div>
+				<div class="mySlides fade">
+					<img src="5.jpg" style="width:100%">
+					<div class="text">Popcorn Chicken</div>
+				</div>
+				<div class="mySlides fade">
+					<img src="6.jpg" style="width:100%">
+					<div class="text">Takoyaki</div>
+				</div>
+				<div class="mySlides fade">
+					<img src="7.jpg" style="width:100%">
+					<div class="text">Unagi Don</div>
+				</div>
+				<div class="mySlides fade">
+					<img src="8.jpg" style="width:100%">
+					<div class="text">Beef BBQ Don</div>
+				</div>
+			
+				<!-- Next and previous buttons -->
+				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				<a class="next" onclick="plusSlides(1)">&#10095;</a>
+			</div>
+				<br>
+			
+			<!-- The dots/circles -->
+			<div style="text-align:center">
+				<span class="dot" onclick="currentSlide(1)"></span>
+				<span class="dot" onclick="currentSlide(2)"></span>
+				<span class="dot" onclick="currentSlide(3)"></span>
+				<span class="dot" onclick="currentSlide(4)"></span>
+				<span class="dot" onclick="currentSlide(5)"></span>
+				<span class="dot" onclick="currentSlide(6)"></span>
+				<span class="dot" onclick="currentSlide(7)"></span>
+				<span class="dot" onclick="currentSlide(8)"></span>
+			</div>
+			
+			<p>Here are some of our specialties:</p>
+			<ul>
+				<li>Tonkotsu Ramen</li>
+				<li>Spicy Ramen</li>
+				<li>Popcorn Chicken Ramen</li>
+				<li>Pork Cutlet Curry</li>
+			</ul>
+			<a href="#menu.html" class="btn">See Full Menu</a>
+		</section>
+
+
+		<section id="hours">
+			<h2>Working hours</h2>
+			<!-- <a href="#" class="btn">Learn More</a> -->
+			<ul>
+				Mon	11:30 AM - 3:00 PM <ul> 5:30 PM - 9:00 PM</ul>
+			</ul>
+			<ul>
+				Tue	11:30 AM - 3:00 PM <ul> 5:30 PM - 9:00 PM</ul>
+			</ul>
+			<ul>				
+				Wed	11:30 AM - 3:00 PM <ul> 5:30 PM - 9:00 PM</ul>
+			</ul>
+			<ul>				
+				Thu	11:30 AM - 3:00 PM <ul> 5:30 PM - 9:00 PM</ul>
+			</ul>
+			<ul>				
+				Fri	11:30 AM - 3:00 PM <ul> 5:30 PM - 9:00 PM</ul>
+			</ul>
+			<ul>				
+				Sat	11:30 AM - 3:00 PM <ul> 5:30 PM - 9:00 PM</ul>	
+			</ul>
+			<ul>Sun	Closed</ul>
+
+		</section>
+
+
+		<section id="contact">
+			<h2>Contact Us</h2>
+			<!-- <p>Feel free to reach out to us if you have any questions or comments.</p> -->
+			<p>Phone: (626) 289-8030</p>
+			<p>Address: 618 W Main St Alhambra, CA 91801</p>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3304.1311882994564!2d-118.13806996872665!3d34.0917795610371!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c521bc99c9a5%3A0x4dec577da3b7e5a6!2sKosuke!5e0!3m2!1sen!2sus!4v1682027519231!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			<!-- <form action="#" method="post">
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name" required>
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" required>
+				<label for="message">Message:</label>
+				<textarea id="message" name="message" required></textarea>
+				<input type="submit" value="Submit">
+			</form> -->
+		</section>
+		
+
+		<section id="reviews">
+		<h2>Reviews</h2>
+		<span class="yelp-review" data-review-id="QI7ludj4lkd7bu-EFcnQIA" data-hostname="www.yelp.com">Read 
+			<a href="https://www.yelp.com/user_details?userid=hc4r_afxVEwrwl59xKGaIw" rel="nofollow noopener">Mieke C.</a>'s 
+			<a href="https://www.yelp.com/biz/kosuke-alhambra?hrid=QI7ludj4lkd7bu-EFcnQIA" rel="nofollow noopener">review</a> of 
+			<a href="https://www.yelp.com/biz/l1WnF_jgjuMgnujU1p776g" rel="nofollow noopener">Kosuke</a> on <a href="https://www.yelp.com" rel="nofollow noopener">Yelp</a>
+			<script src="https://www.yelp.com/embed/widgets.js" type="text/javascript" async></script>
+		</span>
+		<span class="yelp-review" data-review-id="dFAxJ-hfRgi7_5HmA99yKg" data-hostname="www.yelp.com">Read 
+			<a href="https://www.yelp.com/user_details?userid=OwjRLo1K5RLd6euXi7nqNw" rel="nofollow noopener">Mei Y.</a>'s 
+			<a href="https://www.yelp.com/biz/kosuke-alhambra?hrid=dFAxJ-hfRgi7_5HmA99yKg" rel="nofollow noopener">review</a> of 
+			<a href="https://www.yelp.com/biz/l1WnF_jgjuMgnujU1p776g" rel="nofollow noopener">Kosuke</a> on <a href="https://www.yelp.com" rel="nofollow noopener">Yelp</a>
+			<script src="https://www.yelp.com/embed/widgets.js" type="text/javascript" async></script>
+		</span>
+
+		<button id="myBtn">
+			<a href="#top" style="color: rgb(0, 0, 0)">Back to top</a>
+		</button>
+		
+		</section>
+
+	<script src="script.js"></script>
+
+	</main>
+	<footer>
+		<p>Unofficial website for a project purpose.</p>
+		<p>&copy; 2023 All Rights Reserved</p>
+	</footer>
+</body>
+</html>
